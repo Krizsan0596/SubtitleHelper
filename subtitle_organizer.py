@@ -1,8 +1,8 @@
 import os
 import shutil
 
-subs_folder = 'E:\\Invincible_S01_Subs'
-episodes_folder = 'E:\\Invincible (2021) Season 1'
+subs_folder = input("Enter the path to the subtitles folder (use \\\\ instead of \\)\n>")
+episodes_folder = input("Enter the path to the episodes folder (use \\\\ instead of \\)\n>")
 subs_ext = '.srt'
 episodes_ext = '.mkv'
 subs_files = os.listdir(subs_folder)
